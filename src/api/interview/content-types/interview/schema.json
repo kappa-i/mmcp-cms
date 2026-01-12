@@ -56,6 +56,15 @@
         "videos",
         "audios"
       ]
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "tiktok": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
     }
   }
 }
