@@ -6,13 +6,9 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       origin: [
-        'https://kappa-i.github.io',
-        'http://localhost:5500',       // Frontend local (Live Server)
-        'http://127.0.0.1:5500',
-        'http://localhost:*',          // Tous les ports localhost
-        'http://127.0.0.1:*',
-        'https://mmcp.ch',             // Site en production
-        'https://www.mmcp.ch'
+        'https://kappa-i.github.io', // <--- REMPLACE PAR TON URL GITHUB PAGES
+        'http://localhost:5500',       // Pour le Live Server VS Code
+        'http://127.0.0.1:5500'        // Variante du Live Server
       ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
