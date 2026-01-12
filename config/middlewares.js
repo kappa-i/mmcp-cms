@@ -7,8 +7,8 @@ module.exports = [
     config: {
       origin: [
         'https://kappa-i.github.io', // <--- REMPLACE PAR TON URL GITHUB PAGES
-        'http://localhost:5500',       // Pour le Live Server VS Code
-        'http://127.0.0.1:5500'        // Variante du Live Server
+        'http://localhost:3000',       // Pour le Live Server VS Code
+        'http://127.0.0.1:3000'        // Variante du Live Server
       ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
