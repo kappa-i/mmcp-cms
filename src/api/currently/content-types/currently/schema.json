@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "currentlies",
+  "info": {
+    "singularName": "currently",
+    "pluralName": "currentlies",
+    "displayName": "Currently"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
